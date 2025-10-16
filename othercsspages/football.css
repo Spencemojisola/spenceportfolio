@@ -1,0 +1,131 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    border: 5px solid black;
+    margin: auto;
+    width: 90%;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    position: relative;
+    padding: 70px;
+}
+.tvscreen{
+    border: 6px solid black;
+    width: 30%;
+    height: 200px;
+    position: relative;
+}
+.thestadium{
+    position: absolute;
+    bottom: .5px;
+    height: 190px;
+}
+.main{
+    position: absolute;
+    left: 135px;
+    bottom: 0px;
+    animation-name: dancing;
+    animation-iteration-count: infinite;
+    animation-timing-function: linear;
+    animation-duration: 2s;
+}
+@keyframes dancing{
+    from{
+        transform: translateX(-85px);
+    }
+    to{
+        transform: translateX(60px);
+    }
+}
+.player1{
+    position: absolute;
+    left: 2px;
+    top: 100px;
+}
+
+.player2{
+    position: absolute;
+    left: 215px;
+    top: 105px;
+}
+.tvneck{
+    border: 2px solid black;
+    height: 25px;
+    width: 25px;
+    position: absolute;
+    bottom: 195px;
+    background-color: black;    
+}
+.tvbase{
+    border: 2px solid black;
+    width: 150px;
+    height: 50px;
+    position: absolute;
+    bottom: 150px;
+    border-radius: 60%;
+    background-color: black;
+}
+.speaker{
+    border: 2px solid black;
+    width: 150px;
+    height: 274px;
+    display: flex;
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    background-color: black;
+}
+.speaker1{
+    border: 2px solid black;
+    right: 180px;
+}
+.speaker2{
+    border: 2px solid black;
+    left: 180px;
+}
+.big{
+    border: 2px solid black;
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    position: absolute;
+}
+.small{
+    border: 2px solid black;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    background-color: black;
+    position: absolute;
+    animation-name: bounce;
+    animation-iteration-count: infinite;
+    animation-duration: 1s;
+}
+@keyframes bounce {
+    
+    25%{
+        transform: translateY(5px);
+    }
+    50%{
+        transform: translateX(-5px);
+    }
+    
+}
+.small:hover{
+    background-color: seagreen;
+    transition: 2s;
+}
+.smallcircle1{
+    bottom: 23px;
+}
+.smallcircle2{
+    bottom: 23px;
+}
+

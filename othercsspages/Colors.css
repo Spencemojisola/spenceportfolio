@@ -1,0 +1,88 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+.Parent{
+    border: 2px solid black;
+    width: 80%;
+    margin: auto;
+    height: 80vh;
+    position: relative;
+    border: none;
+}
+.children{
+    border: 2px solid crimson;
+    border: none;
+}
+.circle1{
+    width: 500px;
+    height: 500px;
+    border: 2px solid red;
+    background-color: red;
+    position: absolute;
+    top: 35px;
+    left: 400px;
+    border-radius: 400px;
+}
+.circle2{
+    width: 420px;
+    height: 420px;
+    border: 2px solid blue;
+    background-color: blue;
+    position: absolute;
+    top: 75px;
+    left: 440px;
+    border-radius: 400px;
+   
+}
+.circle3{
+    width: 340px;
+    height: 340px;
+    border: 2px solid green;
+    background-color: green;
+    position: absolute;
+    top: 115px;
+    left: 480px;
+    border-radius: 400px;
+}
+.circle4{
+    width: 260px;
+    height: 260px;
+    background-color: yellow;
+    position: absolute;
+    top: 155px;
+    left: 520px;
+    border-radius: 400px;
+}
+.circle5{
+    width: 180px;
+    height: 180px;
+    border: 2px solid orange;
+    background-color: orange;
+    position: absolute;
+    top: 195px;
+    left: 560px;
+    border-radius: 400px;
+}
+.circle6{
+    width: 100px;
+    height: 100px;
+    border: 2px solid purple;
+    background-color: purple;
+    position: absolute;
+    top: 235px;
+    left: 600px;
+    border-radius: 400px;
+}
+.circle7{
+    width: 20px;
+    height: 20px;
+    border: 2px solid violet;
+    background-color: violet;
+    position: absolute;
+    top: 275px;
+    left: 640px;
+    border-radius: 400px;
+}

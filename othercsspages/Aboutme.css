@@ -1,0 +1,248 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    list-style-type: none;
+    text-decoration: none;
+}
+body{
+    background-color: #036462;
+}
+.ABM{
+    display: flex;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    justify-content: center;
+    gap: .5em;
+    padding: 20px;
+}
+.ABM h3{
+    font-size: 20px;
+    color: white;
+    padding: 20px;
+    border-radius: 20px;
+    background-color: #E75C18;
+}
+.ABM :hover{
+    background-color: #008080;
+}
+.ABM a{
+    color: #E75C18;
+    font-size: 25px;
+    padding: 18px;
+}
+.wrapper{
+    display: flex;
+    justify-items: center;
+    justify-content: space-evenly;
+    padding: 20px;
+    border: none;
+}
+.left-side{
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    border: none;
+    width: 480px;
+}
+.left-side{
+    align-items: center;
+    margin-left: 15px;
+}
+.left-side img{
+    border-radius: 20px;
+}
+.right-side{
+    background-color: #E75C18;
+    color: white;
+    border-radius: 20px;
+    align-items: center;
+    width: 400px;
+}
+.right-side p{
+    padding: 60px;
+}
+.right-side:hover{
+    background-color: #008080;
+}
+.skill-section{
+    padding: 20px;
+    align-items: center;
+}
+.skill-section h3{
+    padding: 20px;
+    color: white;
+    text-align: center;
+}
+.images{
+    display: flex;
+    gap: 2em;
+    justify-content: center;
+    padding: 20px;
+}
+.html{
+    width: 50px;
+    height: 50px;
+}
+.js{
+    width: 50px;
+    height: 50px;
+}
+.github{
+    width: 50px;
+    height: 50px;
+}
+.bootstrap{
+    width: 50px;
+    height: 50px;
+}
+.socials{
+    width: 50px;
+    height: 50px;
+}
+.packet{
+    height: 50px;
+    width: 50px;
+}
+@media(max-width: 1024px){
+    .wrapper{
+        flex-direction: column;
+        align-items: center;
+        padding: 15px;
+    }
+     .ABM {
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .left-side{
+        width: 90%;
+        margin: 10px 0;
+    }
+    .right-side{
+        width: 90%;
+        margin: 10px 0;
+    }
+    .right-side p{
+        padding: 40px;
+    }
+     .images {
+        flex-wrap: wrap;
+        gap: 1.5em;
+        justify-content: center;
+    }
+}
+@media(max-width: 768px){
+    .wrapper {
+        flex-direction: column;
+        align-items: center;
+        padding: 10px;
+    }
+    .left-side {
+        width: 100%;
+        margin: 10px 0;
+    }
+    .right-side{
+        width: 100%;
+        margin: 10px 0;
+    }
+    .right-side p{
+        padding: 30px;
+        font-size: 16px;
+    }
+    .ABM{
+        flex-direction: column;
+        align-items: center;
+        gap: 1em;
+    }
+    .ABM h3 {
+        font-size: 18px;
+        padding: 12px;
+        width: 90%;
+    }
+    .ABM a{
+        font-size: 20px;
+        padding: 12px;
+    }
+    .images{
+        flex-wrap: wrap;
+        gap: 1em;
+        justify-content: center;
+    }
+     .html{
+        width: 45px;
+        height: 45px;
+    }
+    .js{
+        width: 45px;
+        height: 45px;
+    }
+    .github{
+        width: 45px;
+        height: 45px;
+    }
+    .bootstrap{
+        width: 45px;
+        height: 45px;
+    }
+    .socials{
+        width: 45px;
+        height: 45px;
+    }
+    .packet{
+        width: 45px;
+        height: 45px;
+    }
+}
+@media (max-width: 480px){
+    .ABM h3{
+        font-size: 16px;
+        padding: 10px;
+        width: 90%;
+    }
+    .ABM a {
+        font-size: 16px;
+        padding: 10px;
+        width: 90%;
+    }
+     .right-side p {
+        padding: 20px;
+        font-size: 14px;
+    }
+
+    .skill-section h3 {
+        font-size: 18px;
+    }
+    .images{
+        flex-wrap: wrap;
+        gap: 0.8em;
+        justify-content: center;
+    }
+    .html{
+        width: 35px;
+        height: 35px;
+    }
+    .js{
+        width: 35px;
+        height: 35px;
+    }
+    .github{
+        width: 35px;
+        height: 35px;
+    }
+    .bootstrap{
+        width: 35px;
+        height: 35px;
+    }
+    .socials{
+        width: 35px;
+        height: 35px;
+    }
+    .packet{
+        width: 35px;
+        height: 35px;
+    }
+}
+@media (max-width:320px){
+    
+}
